@@ -27,7 +27,7 @@ GCDAsyncSocket版本完全依赖于GCD，从而保证了:
 
   委托回调方法均异步dispatch到初始化时指定的队列中，从而保证了socket和委托/处理的可并发性。
 
-  socket运行在内部的socket queue中，因此是线程安全的，若未指定socket queue，则自动创建。
+  socket运行在内部的socket queue中，因此是线程安全的，socket queue可在初始化时指定，若未指定socket queue，则自动创建。
 
 ```
 /**

@@ -2,7 +2,7 @@
 title: RunTime
 date: 2018-01-31 17:52:31
 tags: iOS
-Categories: 技术
+categories: 技术
 ---
 
 Objc与Runtime系统进行交互
